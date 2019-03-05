@@ -1,15 +1,14 @@
-spring: 
+spring:
    profiles: 
-   active:
-   - dev
+      active: 
+      - d
 ---
-spring: 
-   profile: dev #开发环境
+spring:
+   profiles: dev
    application: 
-     name: microservicecloud-config-wy-dev
+      name: microservicecloud-config-wy-dev
 ---
-spring: 
-   profile: test #测试环境
+spring:
+   profiles: test
    application: 
-     name: microservicecloud-config-wy-test
-# 请保持为UTF-8格式
+      name: microservicecloud-config-wy-test
